@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration form</title>
+    <caption><h3>Gym Registeration form</h3></caption>
+    <hr>
+</head>
+<body>
+    <form >
+       <label >First Name</label>
+       <input type="text" placeholder="First Name"required>
+       <br>
+       <label >Last Name</label>
+       <input type="text" placeholder="Last Name"required>
+       <br>
+       <label >Enter your Email</label>
+       <input type="email" placeholder="abc@gamil.com"required>
+       <br>
+       <label > Gender</label><br>
+       <label ><input type="checkbox" name ="Gender" value="Male">Male </label><br>
+       <label ><input type="checkbox" name ="Gender" value="Female">Female </label><br>
+       <label>Membership start date</label>
+       <input type = "datetime" min = "2024-12-30" max = "2025-02-3">
+       <br>
+       <label >Membership Duration</label>
+       <label><br>
+        <input type="checkbox" name="membership" value="1_month"> 1 Month
+    </label><br>
+
+    <label>
+        <input type="checkbox" name="membership" value="3 months"> 3 Months
+    </label><br>
+
+    <label>
+        <input type="checkbox" name="membership" value="6 months"> 6 Months
+    </label><br>
+
+    <label>
+        <input type="checkbox" name="membership" value="1 year"> 1 Year
+    </label><br>
+
+    <label>
+        <input type="checkbox" name="membership" value="2 years"> 2 Years
+    </label><br>
+
+    <label>
+        <input type="checkbox" name="membership" value="lifetime"> Lifetime
+    </label><br>
+    <label >Please Indicate any pre-existing medical condions</label> 
+    <label ><br>
+        <input type="checkbox" name=" condition" value = "diabeties ">Diabeties
+    </label>
+    <br>
+    <label><input type="checkbox" name="condition" value="heart disease"> Heart Disease</label>
+    <br>
+        <label><input type="checkbox" name="condition" value="chest pains"> Chest Pains</label>
+        <br>
+        <label><input type="checkbox" name="condition" value="shortness breath"> Shortness of Breath
+        </label>
+        <br>
+        <label><input type="checkbox" name="condition" value="broken bones"> Broken Bones</label>
+        <br>
+        <label><input type="checkbox" name="condition" value="allergies"> Allergies</label>
+        <br>
+        <label><input type="checkbox" name="condition" value="recent childbirth"> Recent Childbirth
+        </label>
+        <br>
+        <label><input type="checkbox" name="condition" value="heart murmur"> Heart Murmur</label>
+        <br>
+        <label><input type="checkbox" name="condition" value="pneumonia"> Pneumonia</label>
+        <br>
+        <label><input type="checkbox" name="condition" value="epilepsy"> Epilepsy</label>
+        <br>
+        <label><input type="checkbox" name="condition" value="tachycardia"> Tachycardia</label>
+        <br>
+        <label><input type="checkbox" name="condition" value="oedema"> Oedema</label>
+        <br>
+        <label><input type="checkbox" name="condition" value="heart attack"> Heart Attack</label>
+        <br>
+        <label><input type="checkbox" name="condition" value="recent surgery"> Recent Surgery</label>
+        <br>
+        <label><input type="checkbox" name="condition" value="palpitations"> Palpitations</label>
+        <br>
+        <label><input type="checkbox" name="condition" value="high blood pressure"> High Blood Pressure
+        </label>
+        <br>
+        <label><input type="checkbox" name="condition" value="low blood pressure"> Low Blood Pressure</label>
+        <br>
+        <label><input type="checkbox" name="condition" value="asthma"> Asthma</label>
+        <br>
+        <label><input type="checkbox" name="condition" value="seizures"> Seizures</label>
+        <br>
+        <label><input type="checkbox" name="condition" value="fainting"> Fainting</label>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
