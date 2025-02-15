@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table, td,th{
+            border: 2px solid;
+            border-collapse:collapse ;
+        }
+        table{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption><strong><h2> Student Record</h2></strong></caption>
+
+        <tr>
+            <th><h4>Students</h4></th> 
+            <th><h4>Web App Development</h4></th>
+            <th><h4>Database System</h4></th>
+        </tr>
+        <tr>
+            <td>Adnan Khalid</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Motashma Noor</td>
+            <td>90</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>Eshal Siraj</td>
+            <td>90</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>Kashaf Ahmad</td>
+            <td>90</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>Kashaf Zahra</td>
+            <td>90</td>
+            <td>95</td>
+        </tr>
+       
+    </table>
+</body>
+</html>
