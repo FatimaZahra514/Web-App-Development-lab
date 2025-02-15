@@ -1,0 +1,57 @@
+<!--Assignment 2-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+</head>
+<body>
+    <!--Classwork-->
+    <body style="background-color: aqua;">
+
+    </style>
+    </style>
+    <div  class ="main">
+   
+    <a href="https://www.w3schools.com/">W3school link</a>    
+    
+    <img src ="c:\Users\Riffat\Pictures\wallpaper\idiot-quote-humor-minimalism-wallpaper-thumb.jpg">
+    <p>
+        Making images the same size in HTML and CSS ensures a visually appealing and consistent layout on your website.<br>
+         There are multiple ways to achieve this, depending on your needs. Using `width` and `height` in CSS sets.
+    </p>
+    <b>bold</b><br>
+    <strong>Strong</strong><br>
+
+    <em> emphasized </em>
+    <br>
+    <i>italic</i>
+    <br>
+    <mark>marsked text</mark>
+    <br>
+    <small>small</small>
+    <br>
+    <sub>subscript</sub>
+    <br>
+    <sup>superscript</sup>
+    <br>
+<p>An unordered list</p>
+<br>
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+<p>An ordered list</p>
+<ol>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+
+
+</div>
+</body>
+</html>
