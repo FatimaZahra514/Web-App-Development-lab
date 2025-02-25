@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+   
+    <header>
+        <img src="images/download.png" alt="University Logo" class="logo">
+      
+       
+    </header>
+
+    <div class="container">
+     
+        <div class="sidebar">
+            <h3>Courses:</h3>
+            <a href="#">WAD</a>
+            <a href="#">Enterprise</a>
+            <a href="#">Database</a>
+        </div>
+
+        <div class="content">
+            <h2>How to learn web development?</h2>
+            <p>Every Web Developer must have a basic understanding of <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. 
+            Responsive Web Design is used in all types of modern web development. <b>ECMAScript 5 (JavaScript 5)</b> is 
+            supported in all modern browsers. Take a good look at it, especially the new array functions.</p>
+        </div>
+
+       
+        <div class="right-sidebar">
+            <img src="images/download.png" alt="University Logo">
+        </div>
+    </div>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
