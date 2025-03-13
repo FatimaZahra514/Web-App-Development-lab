@@ -1,78 +1,32 @@
-/*  console.log("Web development");
-fullName="55232 LAB 5";
-age=20;
-price=99.99;
-radius=14;
-a=null;
-y=undefined;
-//console.log("welcome to home");
-let fullname="Tony shark";
-let age=24;
-price=99.99;
-radius=14;
-a=null;
-y=undefined;
-isfollow=false;
-let class=2;
-console.log(isfollow)
-console.log(a);*/
-/*let age=24;
-let price=23.99;
+console.log("Web development");
 
-let fullname="Hina";*/
-//let isfollow=false;
-//console.log(fullName);
-//var age=24;
-//var age=43;
-//var age=19;
-//console.log(age);
-/*
-var name = "Nayab";
-console.log(name); // Output: Nayab
+let fullName = "Tony Shark";
+let age = 24;
+let price = 99.99;
+let radius = 14;
+let a = null;
+let y = undefined;
+let isFollow = false;
+let classNumber = 2; 
 
-var name = "Ali"; // Redeclaring allowed
-console.log(name); // Output: Ali
+console.log(isFollow);
+console.log(a);
 
-name = "Sara"; // Updating allowed
-console.log(name); // Output: Sara
+var ageVar = 24;
+var ageVar = 43; 
+var ageVar = 19;
+console.log(ageVar); 
 
-if (true) {
-    var test = "Inside block";
-}
-console.log(test); 
-let age = 25;
-console.log(age); // Output: 25
-
-age = 30; // Updating allowed
-console.log(age); // Output: 30
+let newAge = 25;
+console.log(newAge); 
+newAge = 30; 
+console.log(newAge); 
 
 if (true) {
     let insideBlock = "Hello";
-    console.log(insideBlock); // Output: Hello
+    console.log(insideBlock); 
 }
- console.log(insideBlock); //  Error: insideBlock is not defined
- let age = 25;
- console.log(age);
- 
- age = 30;
- console.log(age);
- 
- if (true) {
-     let insideBlock = "Hello";
-     console.log(insideBlock);
- }
- let age = 25;
- console.log(age);
- 
- age = 30;
- console.log(age);
- 
- if (true) {
-     let insideBlock = "Hello";
-     console.log(insideBlock);
- }
- 
-// const Example
+
 const pi = 3.1416;
 console.log(pi);
 
@@ -80,49 +34,44 @@ if (true) {
     const city = "Lahore";
     console.log(city);
 }
-   
-   // Operators
-let a = 10;
-let b = 5;
-console.log(a + b); // Addition
-console.log(a - b); // Subtraction
-console.log(a * b); // Multiplication
-console.log(a / b); // Division
-console.log(a % b); // Modulus
- 
-// Conditional Statements
+
+let a1 = 10;
+let b1 = 5;
+console.log(a1 + b1); 
+console.log(a1 - b1); 
+console.log(a1 * b1); 
+console.log(a1 / b1); 
+console.log(a1 % b1); 
+
 let score = 80;
 if (score >= 50) {
     console.log("Pass");
 } else {
     console.log("Fail");
 }
+
 let name = "Nayab";
 console.log("String:", name);
 
-let age = 25;
-let pi = 3.1416;
-console.log("Number:", age);
-console.log("Float Number:", pi);
+let myAge = 25;
+let myPi = 3.1416;
+console.log("Number:", myAge);
+console.log("Float Number:", myPi);
 
 let isStudent = true;
-let hasGraduated = false;
 console.log("Boolean:", isStudent);
-console.log("Boolean:", hasGraduated);
 
 let emptyValue = null;
 console.log("Null:", emptyValue);
 
 let notAssigned;
 console.log("Undefined:", notAssigned);
-*/
-// Object Access
+
 let student = { age: 20, name: "Ali" };
 console.log(student.age);
 console.log(student["age"]);
 
-// Update Object
-student["name"] = "Nayab";
+student.name = "Nayab";
 
-// Prompt Example
-let num = prompt("Enter a number");
+let num = Number(prompt("Enter a number"));
+console.log(num + 10); 
