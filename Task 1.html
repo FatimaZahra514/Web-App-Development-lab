@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .oldClass {
+      color: red;
+    }
+
+    .newClass {
+      color: green;
+    }
+  </style>
+   
+</head>
+<body>
+
+  <p id="Para" class="oldClass">Hello </p>
+  <button onclick="changeClass()">Click on me to change My Class</button>
+ 
+  <script>
+    function changeClass() {
+      let element = document.getElementById("Para");
+      
+      console.log("Old class:", element.className);
+
+      element.className = "newClass";
+
+      console.log("New class:", element.className);
+    }
+  </script>
+  
+
+</body>
+</html>

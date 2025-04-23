@@ -1,0 +1,14 @@
+
+  /* Original style */
+  .styleOne {
+    color: teal;
+    font-size: 18px;
+    font-family: Arial;
+  }
+
+  /* New style you’ll append */
+  .styleTwo {
+    background-color: lavender;
+    border: 2px solid purple;
+    padding: 10px;
+  }
